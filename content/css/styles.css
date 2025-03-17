@@ -1,4 +1,36 @@
 * {
     padding: 0; 
     margin: 0;
+    background-color: #1F2937;
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.top-section {
+    flex: 0 1 800px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.logo {
+    height: 24px;
+    width: 24px;
+}
+
+.nav-text {
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF7;
 }
