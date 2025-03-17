@@ -41,6 +41,11 @@ body {
     margin-top: 100px;
 }
 
+.hero-img {
+    height: 100px;
+    width: 200px;
+}
+
 a {
     text-decoration: none;
     color: #F9FAF7;
