@@ -34,3 +34,7 @@ a {
     text-decoration: none;
     color: #F9FAF7;
 }
+
+a:hover {
+    color: #3882F6;
+}
