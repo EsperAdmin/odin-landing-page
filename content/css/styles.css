@@ -1,12 +1,18 @@
 * {
     padding: 0; 
     margin: 0;
-    background-color: #1F2937;
     font-family: Roboto;
 }
 
 body {
     display: flex;
+    justify-content: center;
+}
+
+.top-bg {
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
     justify-content: center;
 }
 
@@ -28,6 +34,11 @@ body {
 .nav-text {
     display: flex;
     gap: 10px;
+}
+
+.hero-section {
+    color: #F9FAF7;
+    margin-top: 100px;
 }
 
 a {
