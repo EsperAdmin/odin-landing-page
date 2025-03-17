@@ -72,6 +72,34 @@ body {
 .info-section {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2837;
+}
+
+.images-and-info {
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+}
+
+.info-images {
+    height: 100px;
+    width: 100px;
+    border: solid 3px #3882F6;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.image1, .image2, .image3, .image4 {
+    flex-direction: column;
 }
 
 a {
