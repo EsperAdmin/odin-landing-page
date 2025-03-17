@@ -121,11 +121,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     font-size: 36px;
     gap: 20px;
-    align-items: end;
 
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    max-width: 1000px;
 }
 
 .call-to-action {
